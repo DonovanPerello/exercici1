@@ -1,4 +1,5 @@
 
+import 'package:exercici1/screens/contador_page.dart';
 import 'package:exercici1/screens/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -7,7 +8,8 @@ class SaMevaApp extends StatelessWidget{
 Widget build(context) {
   
   return MaterialApp(
-    home: HomePage()
+    debugShowCheckedModeBanner: false,
+    home: ContadorPage()
   );
 }
 }
